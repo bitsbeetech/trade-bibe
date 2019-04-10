@@ -2,7 +2,7 @@
 
 
 Advanced High frequency trading bot for crypto currencies.
-Exchnage Supported: Poloniex
+Exchange Supported: Poloniex
 
 This software is under proof reading phase and still not ready to trade.
 
