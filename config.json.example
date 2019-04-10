@@ -1,0 +1,40 @@
+{
+    "max_open_trades": 3,
+    "stake_currency": "BTC",
+    "stake_amount": 0.05,
+    "dry_run": true,
+    "minimal_roi": {
+        "2880": 0.005,
+        "720":  0.01,
+        "0":  0.02
+    },
+    "stoploss": -0.10,
+    "poloniex": {
+        "enabled": false,
+        "key": "key",
+        "secret": "secret",
+        "pair_whitelist": []
+    },
+    "bittrex": {
+        "enabled": true,
+        "key": "key",
+        "secret": "secret",
+        "pair_whitelist": [
+            "BTC_RLC",
+            "BTC_TKN",
+            "BTC_TRST",
+            "BTC_SWT",
+            "BTC_PIVX",
+            "BTC_MLN",
+            "BTC_XZC",
+            "BTC_TIME",
+            "BTC_LUN"
+        ]
+    },
+    "telegram": {
+        "enabled": true,
+        "token": "token",
+        "chat_id": "chat_id"
+    },
+    "initial_state": "running"
+}
